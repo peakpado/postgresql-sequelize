@@ -1,0 +1,37 @@
+{
+  "name": "postgresql-sequelize",
+  "version": "0.0.1",
+  "description": "sequelize wrapper for postgresql",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^3.4.1",
+    "sequelize": "^1.7.9"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peakpado/postgresql-sequelize.git"
+  },
+  "directories": {},
+  "author": {
+    "name": "peakpado@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "postgres"
+  ],
+  "readme": "postgresql-sequelize\n====================\n\nsequelize wrapper for postgresql\n",
+  "readmeFilename": "README.md",
+  "gitHead": "f34c9d1a0b105fdd94606fee26695ae264612ae9",
+  "bugs": {
+    "url": "https://github.com/peakpado/postgresql-sequelize/issues"
+  },
+  "homepage": "https://github.com/peakpado/postgresql-sequelize",
+  "_id": "postgresql-sequelize@0.0.1",
+  "_shasum": "1cff40786bb31ab7d0b11d0352c68bd7d1b77b7a",
+  "_from": "postgresql-sequelize@*"
+}
