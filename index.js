@@ -9,7 +9,7 @@ var config = require('meanio').loadConfig();
 var Sequelize = require('sequelize');
 
 
-var pgConfig = config.pg;
+var pgConfig = {};
 
 // use DATABASE_URL if exists
 if (process.env.DATABASE_URL) {		
