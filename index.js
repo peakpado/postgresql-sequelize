@@ -34,7 +34,8 @@ if (process.env.DATABASE_URL) {
 var sequelize = new Sequelize(pgConfig.database, pgConfig.username, pgConfig.password, {
     dialect: 'postgres',
     host: pgConfig.host,
-    port: pgConfig.port
+    port: pgConfig.port,
+    native: true
 });
 
 // Add JSON and JSONB data type to Sequelize
